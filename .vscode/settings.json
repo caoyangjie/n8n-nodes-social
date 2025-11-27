@@ -1,0 +1,68 @@
+{
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "NOTE",
+        "DONE"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "#FF8C00",
+        "opacity": 50,
+        "iconColour": "#FF8C00"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "foreground": "#3498DB",
+            "iconColour": "#3498DB"
+        },
+        "FIXME": {
+            "icon": "tools",
+            "foreground": "#FF0000",
+            "iconColour": "#FF0000"
+        },
+        "BUG": {
+            "icon": "bug",
+            "foreground": "#FF0000",
+            "iconColour": "#FF0000"
+        },
+        "NOTE": {
+            "icon": "note",
+            "foreground": "#98C379",
+            "iconColour": "#98C379"
+        },
+        "HACK": {
+            "icon": "alert",
+            "foreground": "#FF00FF",
+            "iconColour": "#FF00FF"
+        },
+        "[ ]": {
+            "icon": "check",
+            "foreground": "#3498DB",
+            "iconColour": "#3498DB"
+        },
+        "[x]": {
+            "icon": "check",
+            "foreground": "#98C379",
+            "iconColour": "#98C379"
+        },
+        "DONE": {
+            "icon": "verified",
+            "foreground": "#98C379",
+            "iconColour": "#98C379"
+        }
+    },
+    "todo-tree.tree.showScanModeButton": true,
+    "todo-tree.filtering.includeHiddenFiles": true,
+    "todo-tree.tree.grouped": true,
+    "todo-tree.tree.expanded": true,
+    "todo-tree.regex.regexCaseSensitive": false
+} 
