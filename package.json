@@ -58,18 +58,18 @@
     "dist"
   ],
   "dependencies": {
-    "n8n-workflow": "^1.82.0",
-    "n8n-core": "^1.82.0",
     "axios": "^1.6.7",
-    "form-data": "^4.0.0"
+    "form-data": "^4.0.0",
+    "n8n-core": "^1.82.0",
+    "n8n-workflow": "^1.82.0"
   },
   "devDependencies": {
-    "@types/node": "^16.18.0",
-    "typescript": "~4.9.5"
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
   },
   "scripts": {
-    "build": "tsc && mkdir -p dist/icon && cp src/icon/*.svg dist/icon/",
-    "dev": "tsc --watch",
+    "build": "npx --package=typescript@5.9.3 tsc && mkdir -p dist/icon && cp src/icon/*.svg dist/icon/",
+    "dev": "npx --package=typescript@5.9.3 tsc --watch",
     "format": "prettier --write .",
     "lint": "eslint src",
     "lintfix": "eslint src --fix",
